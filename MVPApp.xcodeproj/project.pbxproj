@@ -17,9 +17,14 @@
 		B6093ECF29C1FDBF004C6DF0 /* TopNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6093ECE29C1FDBF004C6DF0 /* TopNavigationView.xib */; };
 		B6093ED429C1FEF8004C6DF0 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6093ED329C1FEF8004C6DF0 /* LiveViewController.swift */; };
 		B6093ED929C1FFF1004C6DF0 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6093ED829C1FFF1004C6DF0 /* BottomNavigationView.swift */; };
+		B66E84F229F00A49001FE3D4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E84F029F00A49001FE3D4 /* TabBarController.swift */; };
+		B66E84F829F00EFF001FE3D4 /* RankingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E84F729F00EFF001FE3D4 /* RankingPresenter.swift */; };
+		B66E84FB29F013E4001FE3D4 /* LiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E84FA29F013E4001FE3D4 /* LiveService.swift */; };
+		B66E84FD29F013EC001FE3D4 /* LiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E84FC29F013EC001FE3D4 /* LiveModel.swift */; };
+		B66E84FF29F01441001FE3D4 /* RankingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E84FE29F01441001FE3D4 /* RankingService.swift */; };
+		B66E850129F01448001FE3D4 /* RankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E850029F01448001FE3D4 /* RankModel.swift */; };
 		B6C232EC29C2001B00DB36B6 /* BottomNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C232EB29C2001B00DB36B6 /* BottomNavigationView.xib */; };
 		B6C2332529C20D4C00DB36B6 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2332329C20D4C00DB36B6 /* RankingViewController.swift */; };
-		B6C2332829C20D8600DB36B6 /* RankingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C2332729C20D8600DB36B6 /* RankingViewController.storyboard */; };
 		B6DD178429D6A45F005D81E6 /* PublicUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD178329D6A45F005D81E6 /* PublicUtil.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +41,14 @@
 		B6093ECE29C1FDBF004C6DF0 /* TopNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopNavigationView.xib; sourceTree = "<group>"; };
 		B6093ED329C1FEF8004C6DF0 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		B6093ED829C1FFF1004C6DF0 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
+		B66E84F029F00A49001FE3D4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B66E84F729F00EFF001FE3D4 /* RankingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingPresenter.swift; sourceTree = "<group>"; };
+		B66E84FA29F013E4001FE3D4 /* LiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveService.swift; sourceTree = "<group>"; };
+		B66E84FC29F013EC001FE3D4 /* LiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveModel.swift; sourceTree = "<group>"; };
+		B66E84FE29F01441001FE3D4 /* RankingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingService.swift; sourceTree = "<group>"; };
+		B66E850029F01448001FE3D4 /* RankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankModel.swift; sourceTree = "<group>"; };
 		B6C232EB29C2001B00DB36B6 /* BottomNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomNavigationView.xib; sourceTree = "<group>"; };
 		B6C2332329C20D4C00DB36B6 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
-		B6C2332729C20D8600DB36B6 /* RankingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RankingViewController.storyboard; sourceTree = "<group>"; };
 		B6C2332929C20DB600DB36B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B6DD178329D6A45F005D81E6 /* PublicUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				B6C2332929C20DB600DB36B6 /* README.md */,
-				B6093ED129C1FDE8004C6DF0 /* ViewController */,
+				B6093ED529C1FF0D004C6DF0 /* Base */,
+				B6093ED129C1FDE8004C6DF0 /* Category */,
 				B6093EA129C1F223004C6DF0 /* AppDelegate.swift */,
 				B6093EA329C1F223004C6DF0 /* SceneDelegate.swift */,
 				B6093EAA29C1F223004C6DF0 /* Assets.xcassets */,
@@ -104,7 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				B6C2332329C20D4C00DB36B6 /* RankingViewController.swift */,
-				B6C2332729C20D8600DB36B6 /* RankingViewController.storyboard */,
+				B66E84F729F00EFF001FE3D4 /* RankingPresenter.swift */,
+				B66E84FE29F01441001FE3D4 /* RankingService.swift */,
+				B66E850029F01448001FE3D4 /* RankModel.swift */,
 			);
 			path = Ranking;
 			sourceTree = "<group>";
@@ -121,20 +134,21 @@
 			children = (
 				B6093ED229C1FDFC004C6DF0 /* TopNavigationView */,
 				B6093EDC29C1FFFE004C6DF0 /* BottomNavigationView */,
+				B66E84F429F00A4D001FE3D4 /* TabBarController */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B6093ED129C1FDE8004C6DF0 /* ViewController */ = {
+		B6093ED129C1FDE8004C6DF0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				B6093ED529C1FF0D004C6DF0 /* Base */,
+				B66E84F929F0102B001FE3D4 /* LiveView */,
 				B6093EC629C1FD18004C6DF0 /* Ranking */,
 				B6093ECB29C1FD2C004C6DF0 /* MyInfo */,
 				B6093EBC29C1FC9E004C6DF0 /* Vod */,
 				B6093EC129C1FCF7004C6DF0 /* Favorite */,
 			);
-			path = ViewController;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		B6093ED229C1FDFC004C6DF0 /* TopNavigationView */ = {
@@ -150,8 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				B6093EA729C1F223004C6DF0 /* Main.storyboard */,
-				B6093ED329C1FEF8004C6DF0 /* LiveViewController.swift */,
-				B6093EB529C1F9F8004C6DF0 /* LivePresenter.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -163,6 +175,25 @@
 				B6C232EB29C2001B00DB36B6 /* BottomNavigationView.xib */,
 			);
 			path = BottomNavigationView;
+			sourceTree = "<group>";
+		};
+		B66E84F429F00A4D001FE3D4 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B66E84F029F00A49001FE3D4 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		B66E84F929F0102B001FE3D4 /* LiveView */ = {
+			isa = PBXGroup;
+			children = (
+				B6093ED329C1FEF8004C6DF0 /* LiveViewController.swift */,
+				B6093EB529C1F9F8004C6DF0 /* LivePresenter.swift */,
+				B66E84FA29F013E4001FE3D4 /* LiveService.swift */,
+				B66E84FC29F013EC001FE3D4 /* LiveModel.swift */,
+			);
+			path = LiveView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +256,6 @@
 			files = (
 				B6093EAE29C1F223004C6DF0 /* LaunchScreen.storyboard in Resources */,
 				B6093EAB29C1F223004C6DF0 /* Assets.xcassets in Resources */,
-				B6C2332829C20D8600DB36B6 /* RankingViewController.storyboard in Resources */,
 				B6093ECF29C1FDBF004C6DF0 /* TopNavigationView.xib in Resources */,
 				B6C232EC29C2001B00DB36B6 /* BottomNavigationView.xib in Resources */,
 				B6093EA929C1F223004C6DF0 /* Main.storyboard in Resources */,
@@ -244,9 +274,15 @@
 				B6093EA229C1F223004C6DF0 /* AppDelegate.swift in Sources */,
 				B6093ED429C1FEF8004C6DF0 /* LiveViewController.swift in Sources */,
 				B6093ED929C1FFF1004C6DF0 /* BottomNavigationView.swift in Sources */,
+				B66E84F829F00EFF001FE3D4 /* RankingPresenter.swift in Sources */,
+				B66E84F229F00A49001FE3D4 /* TabBarController.swift in Sources */,
+				B66E84FD29F013EC001FE3D4 /* LiveModel.swift in Sources */,
 				B6093EB629C1F9F8004C6DF0 /* LivePresenter.swift in Sources */,
 				B6093EA429C1F223004C6DF0 /* SceneDelegate.swift in Sources */,
 				B6C2332529C20D4C00DB36B6 /* RankingViewController.swift in Sources */,
+				B66E84FF29F01441001FE3D4 /* RankingService.swift in Sources */,
+				B66E84FB29F013E4001FE3D4 /* LiveService.swift in Sources */,
+				B66E850129F01448001FE3D4 /* RankModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
